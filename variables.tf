@@ -58,7 +58,7 @@ variable "jx_bot_username" {
 variable "jx_bot_token" {
   description = "Bot token used to interact with the Jenkins X cluster git repository"
   type        = string
-  default     = "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"
+  default     = "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"
 }
 
 variable "nginx_chart_version" {
