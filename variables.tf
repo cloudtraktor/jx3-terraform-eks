@@ -16,7 +16,7 @@ variable "profile" {
 variable "cluster_version" {
   description = "Kubernetes version to use for the EKS cluster."
   type        = string
-  default     = "1.21"
+  default     = ""
 }
 
 variable "vault_user" {
@@ -58,7 +58,7 @@ variable "jx_bot_username" {
 variable "jx_bot_token" {
   description = "Bot token used to interact with the Jenkins X cluster git repository"
   type        = string
-  default     = "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"
+  default     = "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"
 }
 
 variable "nginx_chart_version" {
